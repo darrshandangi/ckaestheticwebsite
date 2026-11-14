@@ -70,13 +70,16 @@
                 <p>When using GLP-1 medications, maintaining a nutrient-dense diet is important because appetite is often reduced. I recommend <strong>70-100 grams/day of protein</strong> to help preserve lean muscle mass, staying well-hydrated, and incorporating regular physical activity including resistance training.</p>
                 <p>For any specific medical advice, dosing changes, or to discuss starting a new medication, it is essential to consult directly with a licensed healthcare professional like me. I will be your go-to person at anytime and will be walking this journey with you.</p>
 
-                <!-- Pricing -->
-                <div class="mt-8 p-6 bg-surface-container-low rounded-xl border border-soft-blush/30 shadow-sm">
-                    <h3 class="font-title-lg text-primary mb-5 flex items-center gap-2">
-                        <span class="material-symbols-outlined text-soft-blush">payments</span>
-                        Pricing
-                    </h3>
-                    <div class="space-y-4 font-body-md">
+                <!-- Pricing Dropdown -->
+                <details class="group mt-8 bg-surface-container-low rounded-xl border border-soft-blush/30 shadow-sm transition-all duration-300">
+                    <summary style="list-style: none;" class="p-5 md:p-6 cursor-pointer font-title-lg text-primary flex justify-between items-center select-none list-none [&::-webkit-details-marker]:hidden hover:text-deep-plum transition-colors">
+                        <span class="flex items-center gap-2">
+                            <span class="material-symbols-outlined text-soft-blush">payments</span>
+                            <span class="font-semibold">Pricing</span>
+                        </span>
+                        <span class="material-symbols-outlined text-primary/70 transition-transform duration-300 group-open:rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-5 md:px-6 pb-6 pt-2 border-t border-outline-variant/30 space-y-4 font-body-md">
                         <!-- Semaglutide -->
                         <div class="flex justify-between items-center pb-3 border-b border-outline-variant/30">
                             <div>
@@ -134,7 +137,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </details>
             </div>
             <button onclick="window.location.href='https://squareup.com/appointments/book/L5CWQHE9Q1V00'" class="mt-8 bg-primary text-on-primary px-8 py-4 font-label-lg uppercase tracking-widest hover:bg-primary/90 transition-all">Start Your Journey</button>
         </div>
